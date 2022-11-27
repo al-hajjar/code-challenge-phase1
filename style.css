@@ -1,0 +1,51 @@
+*{
+    padding : 0;
+    margin : 0 ;
+    box-sizing: 0;
+}
+
+.mkali{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(148, 56, 56);
+    position: relative;
+    border-radius: 3.5%;
+    margin: auto;
+}
+
+.mkali img{
+    height :35%;
+    width: 25;
+    margin-left: 25%;
+}
+
+.mkali h1{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 850;
+    margin-top: 2%;
+}
+.mkali form input {
+    border-radius: 2%;
+    border-color: blue;
+    box-shadow: 0mm;
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 25px;
+    width: 170px;
+    border-radius: 5px;
+}
+.mkali form option {
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+.mkali form button {
+    width: 85px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-left: 37%;
+    margin-top: 3%;
+    border: none;
+}
