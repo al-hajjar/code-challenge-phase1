@@ -1,7 +1,7 @@
 *{
     padding : 0;
     margin : 0 ;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 .mkali{
@@ -14,7 +14,7 @@
 }
 
 .mkali img{
-    height :35%;
+    height:35%;
     width: 25;
     margin-left: 25%;
 }
@@ -28,7 +28,6 @@
 .mkali form input {
     border-radius: 2%;
     border-color: blue;
-    box-shadow: 0mm;
     margin-left: 25%;
     margin-top: 2%;
     height: 25px;
@@ -48,4 +47,9 @@
     margin-left: 37%;
     margin-top: 3%;
     border: none;
+}
+span{
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(240, 247, 255);
 }

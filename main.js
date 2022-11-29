@@ -25,3 +25,26 @@ btn.addEventListener("click", function (event){
 
     formReset();
 });
+//<!-- Speed Detector (Toy Problem) -->
+const enter = document.getElementById("enter");
+
+enter.addEventListener("click" , function (e){
+    e.preventDefault();
+    var speedDisplay = document.getElementById("speedDisplay").value;
+    const speedLimit = 70;
+    const output = document.getElementById("output");
+
+    console.log (speedDisplay);
+    console.log (speedLimit);
+
+    let demirit = (speedDisplay - speedLimit)/5;
+    console.log (demirit);
+    if (speedDisplay < 70){
+        output.innerHTML = "OK";
+    }else if (speedDisplay > 70 && demirit <= 12){
+        output.innerHTML = demirit;
+    }else if ( demirit > 12){
+        output.innerHTML = "Licensed Suspended";
+    }
+
+});
